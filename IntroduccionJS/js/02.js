@@ -1,15 +1,24 @@
-//variables con Let
+// Variables con let
 
-let producto = "iPhone";
-producto = "iPhone";
+let producto = 'Audifonos Gamer'; // Iniciar variable y asignarle valor
 
-//let si te permite declarar variables sin asignar valor o asignar valor en el momento de declararla
+let disponible; // iniciamos la variable pero sin valor.
 
-//variables con const
+// producto = true; // Reasignando el valor de la variable
 
-const producto1 = "iPhone";
-//con const no se puede cambiar el valor de la variable o declararlo después de haberlo usado
-//const no puedes reasignar el valor de la variable
+disponible = true;
 
-/*const producto2 = "iPhoneXR";
-producto2 = "iPhoneXS";*/
+
+let producto1 = 'Computadora', 
+    disponible1 = true,
+    categoria = 'Computadoras';
+
+
+// let 1disponible;
+let disponible_;
+
+// Estilos para las variables
+let nombre_producto = 'Monitor HD'; // underscore
+let nombreProducto = 'Monitor HD'; // Camelcase
+let NombreProducto = 'Monitor HD'; // Pascal Case
+let nombreproducto = 'MonitorHD'; 
